@@ -17,9 +17,7 @@ export default function Meme(){
                 <input type='text' className='input--field' placeholder='Bottom text'/>
                 <button className='form--button' onClick={getRandomMeme}>Get a new image</button>
             </div>
-            <div className='meme-container'>
-                <img src={imgUrl} alt='meme'></img>
-            </div>
+            <img src={imgUrl} alt='meme' className='meme--image'></img>
         </main>
     )
 }

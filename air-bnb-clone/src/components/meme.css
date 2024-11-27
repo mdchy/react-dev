@@ -21,8 +21,6 @@
     cursor: pointer;
 }
 
-.meme-container {
-    width: 400px;
-    height: 400px;
-    box-align: centre;
+.meme--image {
+    max-width: 100%;
 }
